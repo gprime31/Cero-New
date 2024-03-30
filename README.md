@@ -6,10 +6,11 @@ It is not limited to only HTTPS, and will scrape certificates from any protocol 
 Cero allows flexible specification of targets, including domain names, IP addresses, and CIDR ranges, with full support for IPv6.
 
 ## Installation / Update
-- Download pre-compiled binary for your OS from [Latest release](https://github.com/glebarez/cero/releases/latest)
-- alternatively, compile from source:
+- compile from source:
 ```bash
-go build cero.go
+1.  git clone https://github.com/gprime31/Cero-New.git
+2.  cd Cero-New
+3.  go build cero.go
 ```
 
 ## Usage examples
