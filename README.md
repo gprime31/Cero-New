@@ -31,6 +31,27 @@ fr-ca.rogers.yahoo.com
 hk.rd.yahoo.com
 tw.rd.yahoo.com
 ```
+With -org flag
+```bash
+▶ cero -d -org yahoo.com
+yahoo.com [Oath Holdings Inc.]
+tw.rd.yahoo.com [Oath Holdings Inc.]
+s.yimg.com [Oath Holdings Inc.]
+mbp.yimg.com [Oath Holdings Inc.]
+hk.rd.yahoo.com [Oath Holdings Inc.]
+fr-ca.rogers.yahoo.com [Oath Holdings Inc.]
+ddl.fp.yahoo.com [Oath Holdings Inc.]
+ca.rogers.yahoo.com [Oath Holdings Inc.]
+ca.my.yahoo.com [Oath Holdings Inc.]
+brb.yahoo.net [Oath Holdings Inc.]
+add.my.yahoo.com [Oath Holdings Inc.]
+*.yahoo.com [Oath Holdings Inc.]
+*.www.yahoo.com [Oath Holdings Inc.]
+*.media.yahoo.com [Oath Holdings Inc.]
+*.global.vespa.oath.cloud [Oath Holdings Inc.]
+*.att.yahoo.com [Oath Holdings Inc.]
+*.amp.yimg.com [Oath Holdings Inc.]
+```
 NOTE: You might want to use the **-d** option to automatically strip invalid domain names (e.g. wildcards, bare IPs and usual gibberish) to integrate this tool more smoothly into your recon pipelines.
 
 Cero is fast and concurrent, you can pipe your inputs into it. The concurrency level can be set with **-c** flag:
