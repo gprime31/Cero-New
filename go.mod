@@ -1,4 +1,4 @@
-module github.com/glebarez/cero
+module github.com/gprime31/Cero-New
 
 go 1.20
 
