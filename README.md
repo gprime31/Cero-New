@@ -33,7 +33,7 @@ tw.rd.yahoo.com
 ```
 With -org flag
 ```bash
-▶ cero -org yahoo.com
+▶ cero -d -org yahoo.com
 yahoo.com [Oath Holdings Inc.]
 tw.rd.yahoo.com [Oath Holdings Inc.]
 s.yimg.com [Oath Holdings Inc.]
